@@ -11,6 +11,7 @@ const Display = ({ expression, result }) => {
     );
   };
 
+
   Display.propTypes = {
     expression: PropTypes.string.isRequired,
     result: PropTypes.string.isRequired,
